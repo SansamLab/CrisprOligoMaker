@@ -34,10 +34,22 @@ ui <- fluidPage(
 # Define server
 server <- function(input, output) {
     
+    reverse_complement <- function(sequence) {
+        sequence <- toupper(sequence)
+        complement <- gsub("A", "t", sequence)
+        complement <- gsub("T", "a", complement)
+        complement <- gsub("C", "g", complement)
+        complement <- gsub("G", "c", complement)
+        splits <- strsplit(complement, "")[[1]]
+        reversed <- rev(splits)
+        reverse_complement <- paste(reversed, collapse = "")
+        return(paste("AAAC", reverse_complement, "C", sep=""))
+    }
+    
     # Define function to convert sgRNA to oligo sequences
     sgRNA_to_oligo <- function(sequence) {
         upper_oligo <- paste("CACCG", sequence, sep="")
-        lower_oligo <- paste("AAAC", rev(gsub("T", "A", sequence)), "C", sep="")
+        lower_oligo <- reverse_complement(sequence)
         return(list(upper_oligo, lower_oligo))
     }
     
