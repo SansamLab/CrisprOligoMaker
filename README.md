@@ -21,6 +21,8 @@ This Shiny app converts a Cas9 single guide RNA (sgRNA) sequence, without the NG
 
 This app is built using the R Shiny package and can be run locally on a computer. To get started, open the app in R and enter a Cas9 sgRNA sequence (without the NGG PAM) in the text box. Then, click the "Submit" button to convert the sequence into upper and lower oligo sequences and complementary strands.
 
+---
+
 To Run in R Studio:
 ```
 library(shiny)
