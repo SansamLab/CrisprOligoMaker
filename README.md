@@ -7,7 +7,7 @@
 ![LastCommit](https://img.shields.io/github/last-commit/SansamLab/CrisprOligoMaker)
 ![Downloads](https://img.shields.io/github/downloads/SansamLab/CrisprOligoMaker/total)
 ![OpenIssues](https://img.shields.io/github/issues-raw/SansamLab/CrisprOligoMaker)
-[![DOI](https://zenodo.org/badge/468099411.svg)](https://zenodo.org/badge/latestdoi/468099411)
+[![DOI](https://zenodo.org/badge/610871370.svg)](https://zenodo.org/badge/latestdoi/610871370)
 
 <figure>
 <img src="graphic.png" alt="Trulli" style="width:60%">
