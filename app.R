@@ -49,7 +49,7 @@ server <- function(input, output) {
     # Define function to convert sgRNA to oligo sequences
     sgRNA_to_oligo <- function(sequence) {
         upper_oligo <- paste("CACCG", sequence, sep="")
-        lower_oligo <- reverse_complement(sequence)
+        lower_oligo <- reverse_complement(sequence) %>% toupper
         return(list(upper_oligo, lower_oligo))
     }
     
