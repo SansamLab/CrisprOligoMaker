@@ -1,6 +1,6 @@
 # CrisprOligoMaker
 
-![Release](https://img.shields.io/github/v/release/SansamLab/Cut_And_Run_Analysis_SnakeMake?include_prereleases)
+![Release](https://img.shields.io/github/v/release/SansamLab/CrisprOligoMaker?include_prereleases)
 ![ReleaseDate](https://img.shields.io/github/release-date/SansamLab/CrisprOligoMaker)
 ![Size](https://img.shields.io/github/repo-size/SansamLab/CrisprOligoMaker)
 ![License](https://img.shields.io/github/license/SansamLab/CrisprOligoMaker)
