@@ -60,6 +60,7 @@ server <- function(input, output) {
         output$output <- renderText(paste(
             "Upper oligo sequence:", oligo_seqs[[1]], 
             "\nLower oligo sequence:", oligo_seqs[[2]],
+            "\n\n",
             "\n top strand:    5'",toupper(oligo_seqs[[1]]),"     3'",
             "\n                      ", 
             rep("|",nchar(oligo_seqs[[1]])-4) %>% paste(.,collapse=""),
