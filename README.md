@@ -15,7 +15,7 @@
 </figure>
 
 
-
+---
 
 This Shiny app converts a Cas9 single guide RNA (sgRNA) sequence, without the NGG PAM, into upper and lower oligo sequences for cloning into Zhang Lab CRISPR plasmids that have undergone digestion with BbsI restriction enzyme. The app includes a text box with a description of what it does and a link to the instructions for cloning sgRNA oligos into pX330 plasmids. In addition to displaying the upper and lower oligo sequences, the app also outputs the complementary top and bottom strands, and displays them in a visually informative manner.
 
